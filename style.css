@@ -1,4 +1,4 @@
-#logo {
+a .logo {
   width: 200px;
   height: 200px;
   margin-left: auto;
@@ -33,9 +33,29 @@
   display: flex;
   justify-content: center;
   gap: 20px;
+  font-weight: 700;
+  font-size: large;
+  font-family: sans-serif;
 }
 
 div img {
   width: 350px;
   height: 510px;
+  border-radius: 20px;
+}
+
+.description-container {
+  background-color: antiquewhite;
+  width: 360px;
+  border-radius: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: large;
 }
