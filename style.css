@@ -44,9 +44,14 @@ div img {
   border-radius: 20px;
 }
 
+.Henryburger-img {
+  width: 560px;
+  height: 700px;
+}
+
 .description-container {
   background-color: antiquewhite;
-  width: 360px;
+  width: 660px;
   border-radius: 20px;
 }
 
@@ -58,4 +63,19 @@ li {
   padding-bottom: 10px;
   font-weight: 500;
   font-size: large;
+}
+
+#holding-container {
+  display: flex;
+  gap: 20px;
+}
+
+.right {
+  background-color: antiquewhite;
+  width: 600px;
+  height: 400px;
+}
+
+.upper-right {
+  padding: 40px;
 }
